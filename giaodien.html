@@ -7,20 +7,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="sass.css">
 </head>
 <body>
-	<header>
-		<div class="container-fluid" style="background: #D2CBCB">
+	 <header>
+		 <div class="container-fluid" style="background: #D2CBCB">
 		<div class="container" >
 			<p style="float: left;">Welcome to Autos Dealership! Place <a href="">Login</a> or <a href="">Register</a></p>
 			<p style="float: right;"><a href="">Get Direction</a> * <a href="">Suppost@Autos.com</a> * Sevice:763-478-8888</p>
 		</div>
 		</div>
-		<div class="container" style="height: 100px;" >
-			<div style="float: left;"><img src="D:\HTML\anh\bieutuong.jpg.jpg">
+		<div class="container" id="container1" >
+			<div id="imgbieutuong1" ><img src="D:\HTML\anh\bieutuong.jpg.jpg">
 			</div>
-			<div style="float: left;">
+			<div id="list">
 				<ul id="menu">
 					<li><a href="#">HOME</a></li>
 					<li><a href="#">INVENTORY</a></li>
@@ -32,10 +32,11 @@
 					<li><a href="#">HOME</a></li>
 				</ul>
 			</div>
-			<div >
-				<img src="D:\HTML\anh\bieutuong2.jpg.jpg" style="height: 100px;width: 240px;float: right;" >
+			<div>
+				<img src="D:\HTML\anh\bieutuong2.jpg.jpg"  id="imgbieutuong2" >
 			</div>
-		</div>
+		</div> 
+
 		<div class="container-fluid " id="banner">
 			<div class="container">
 				<label id="dong1">OUR BLOGS</label>
@@ -46,7 +47,8 @@
 				</ul></div>
 			</div>
 		</div>
-		<div class="container" style="margin-bottom: 100px;">
+
+		<div class="container" id="container2">
 			<div class="row">
 				<div class="col-md-6 container">
   					<img src="D:\HTML\anh\post1.jpg" alt="Notebook" style="width:100%;">
@@ -67,9 +69,9 @@
   					</div>
 				</div>
 			</div>
-		</div>
+		</div> 
 	</header>
-	<section class="container-fluid">
+	 <section class="container-fluid">
 		<div class="container ul">
 			<div class="row">
 			<div class="col-md-8" >
@@ -82,7 +84,7 @@
 						<p><a href="#">CONTINUE READING</a></p>
 					</div>
 					<div class="col-md-6" >
-						<img src="D:\HTML\anh\anh2.jpg"  class="img-responsive margin" style="width:500px"><br>
+						<img src="D:\HTML\anh\anh2.jpg"  class="img-responsive margin" ><br>
 						<p id="title">Update:First Honda Civic Type R</p>
 						<p>&#128347;Jun,14 2007	&#128172; 05 comment</p>
 						<p>Lorem ipsum dolor sit amet, in usu deleniti argumentum Eu sed eloquentiam appellantur...</p>
@@ -137,7 +139,7 @@
 						<p><a href="#">CONTINUE READING</a></p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="trang">
 					<div class="pagination">
 						<a href="#"><</a>
 						<a class="active" href="#">1</a>
@@ -148,8 +150,8 @@
 						<a href="#">></a>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4" style="background-color: ;padding-left:100px;">
+			</div> 
+			<div class="col-md-4" >
 				 <div class="container" id="letrai">
    					 <form action="#" id="frmsearch">
      					 <input type="text" placeholder="Search.." name="search">
@@ -174,7 +176,7 @@
   						<h5 id="title">NEWEST</h5>
   						<div class="row" id="sabar2">
   							<div class="col-xs-6">
-  								<img src="D:\HTML\anh\anh3.jpg" style="height: 100px; width: 100px;">
+  								<img src="D:\HTML\anh\anh3.jpg" >
   							</div>
   							<div class="col-xs-6">
   								<h6><P>Arcte Beritatis et Qusi solar veatae..</P></h6>
@@ -183,7 +185,7 @@
   						</div>
   						<div class="row" id="sabar2">
   							<div class="col-xs-6">
-  								<img src="D:\HTML\anh\anh7.jpg" style="height: 100px; width: 100px;">
+  								<img src="D:\HTML\anh\anh7.jpg" >
   							</div>
   							<div class="col-xs-6">
   								<h6><P>Arcte Beritatis et Qusi solar veatae..</P></h6>
@@ -192,7 +194,7 @@
   						</div>
   						<div class="row" id="sabar2">
   							<div class="col-xs-6">
-  								<img src="D:\HTML\anh\anh5.jpg" style="height: 100px; width: 100px;">
+  								<img src="D:\HTML\anh\anh5.jpg" >
   							</div>
   							<div class="col-xs-6">
   								<h6><P>Arcte Beritatis et Qusi solar veatae..</P></h6>
@@ -238,9 +240,9 @@
   					</div>
   				</div>
 			</div>
-			</div>
+			 </div>
 		</div>
-	</section>
+	</section> 
 	<footer class="container-fluid">
 		<div class="container">
 			<div class="row">
@@ -322,6 +324,6 @@
 				<li>COMMUNITY</li>
 			</ul></label>
 		</div>
-	</div>
+	</div>  -->
 </body>
 </html>

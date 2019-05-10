@@ -228,7 +228,7 @@ footer{
 	height: 480px;
 }
 
-.container .row .col-md-4 .row p{
+.container .row .col-md-3 .row p{
 	width: 150px;
 	height: 46px;
 	font-size: 16px;
@@ -313,14 +313,6 @@ footer{
 	color: #989ba6;
 	font-family: "Roboto Condensed";
 	font-weight: 400;
-}
- label.col-xs-6{
-	font-size: 16px;
-	line-height: 41px;
-	color: #989ba6;
-	font-family: "Roboto Condensed";
-	font-weight: 400;
-	padding: 0px;
 }
 label.col-xs-6 p{
 	color: white;
@@ -411,4 +403,7 @@ label.col-xs-6 p{
 }
 .container #fontkt1 ul{
 	padding-top: 15px;
+}
+#trang{
+	margin-bottom: 50px;
 }
