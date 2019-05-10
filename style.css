@@ -1,0 +1,414 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.container  #menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+   padding-top: 30px;
+   padding-left: 160px;
+}
+ .container #menu li {
+	float: left;
+}
+ #menu  a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ #banner{
+ 	background-image: url('anh/banner.jpg');
+ 	background-repeat: no-repeat; height: 420px; width: 100%x;padding:150px 20px;text-indent:20px;text-align:left;color: red;
+}
+#banner .container #dong1{
+	font-size: 40px;
+line-height: 51px;
+color: #ffffff;
+font-family: "Oswald";
+font-weight: 700;
+}
+.container #menubanner {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 30px;
+}
+.container #menubanner li{
+	float: left;
+	color: #afaead;
+}
+.container .content{
+position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+  width: 90%;
+  padding-left: 20px;
+}
+.container .content p {
+	font-size: 22px;
+line-height: 30px;
+color: #ffffff;
+font-family: "Oswald";
+font-weight: 700;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+.container .content #dong2{
+font-size: 16px;
+line-height: 20px;
+color: #afaead;
+font-family: "Roboto Condensed";
+font-weight: 400;
+margin: 0px;
+}
+.container .content #dong3{
+	font-size: 12px;
+line-height: 26px;
+color: #afaead;
+font-family: "Roboto Condensed";
+font-weight: 400;
+margin: 0px;
+}
+.container .content #event{
+	width: 40px;
+	height:  20px;
+	background-color: #23a9ff;
+	color: white;
+	text-align: center;
+
+}
+.container .content #uncategory{
+	width: 80px;
+	height:  20px;
+	background-color: #e5a935;
+	color: white;
+	text-align: center;
+}
+.col-md-8 .row .col-md-6{
+	float: left;
+	margin-bottom: 50px;
+}
+.col-md-8 .row .col-md-6 p{
+	width: 360px;
+height: 45px;
+font-size: 16px;
+line-height: 22px;
+color: #6c6c6c;
+font-family: "Roboto Condensed";
+font-weight: 400;
+margin: 0px;
+}
+.col-md-8 .row .col-md-6 p a{
+	font-size: 16px;
+color: #23aaff;
+font-family: "Roboto Condensed";
+font-weight: 700;
+}
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+.pagination a.active{
+	background-color: yellow;
+	color: black;
+}
+.pagination a:hover:not(.active){
+	background-color: gray;
+}
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+ div #letrai{ 
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+}
+#title{
+	font-size: 18px;
+letter-spacing: 1px;
+line-height: 22px;
+color: #333333;
+font-family: "Oswald";
+font-weight: 700;
+}
+ #frmsearch input{
+ 	width: 270px;
+ 	height: 50px;
+ 	border: 1px solid #e1e1e1;
+ 	background-color: #f7f7f7;
+ } 
+ #frmsearch button{
+ 	background-image: url('anh/button2.jpg');
+ 	width: 45px;
+ 	height: 50px;
+ 	border:none;
+ 	position: absolute;
+ 	top: 10px;
+ 	right: 20px;
+ }
+ #menu1{
+ 	padding-left: 15px;
+ 	padding-bottom: 30px;
+ }
+#sabar2 {
+	padding-bottom: 0px;
+}
+.row .col-md-12 img{
+	margin-bottom: 5px;
+}
+.tags a {
+    display: inline-block;
+    height: 21px;
+    margin:15px 20px 15px 8px;
+    padding: 0 7px 0 14px;
+    white-space: nowrap;
+    position: relative;
+ 
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#febc4a));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#eee 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 100%);
+    background-color: #ffffff;
+ 
+    color: black;
+    font: bold 11px/21px Arial, Tahoma, sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,0.4);
+ 
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-radius: 1px 3px 3px 1px;
+    box-shadow: inset 0 1px #e3e3e3, 0 1px 2px rgba(0,0,0,0.21);
+}
+
+a:after {
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    width: 5px;
+    height: 5px;
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.21);
+}
+.col-md-12 .tags a{
+	font-size: 14px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	float: left;
+	}
+	.col-md-12 .tags a#tags{
+	font-size: 14px;
+	color: #333333;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	text-align: center;
+}
+footer{
+	background-image: url('anh/footer.jpg');
+	width: 100%;
+	height: 480px;
+}
+
+.container .row .col-md-4 .row p{
+	width: 150px;
+	height: 46px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+}
+#ft{
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.container .row .col-md-3 p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	font-family: "Oswald";
+	font-weight: 400;
+}
+.row #icon {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 5px;
+  
+}
+#icon a {
+	display: block;
+	color: black;
+	text-align: left;
+	padding-right: 10px;
+	text-decoration: none;
+}
+#icon li {
+	float: left;
+}
+.col-md-3 #CONTACT{
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	font-family: "Oswald";
+	font-weight: 700;
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+.col-md-3 #fontCT{
+	font-size: 16px;
+	line-height: 22px;
+	color: #989ba6;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.col-md-3 #fontCT1{
+	font-size: 16px;
+	line-height: 22px;
+	color: #2188ce;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.col-md-3 #fontCT2{
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	text-align: center;
+}
+.col-md-3 #fontCT2 a{
+	font-size: 16px;
+	line-height: 22px;
+	color: #f7dc23;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	text-align: center;
+}
+ label.col-xs-6{
+	font-size: 16px;
+	line-height: 41px;
+	color: #989ba6;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+}
+ label.col-xs-6{
+	font-size: 16px;
+	line-height: 41px;
+	color: #989ba6;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	padding: 0px;
+}
+label.col-xs-6 p{
+	color: white;
+	font-size: 16px;
+	line-height: 41px;
+	color: #989ba6;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+}
+.container .row .col-md-3.row p{
+	 width: 254px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #f5f5f5;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+ #frmenter {
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+#frmenter input{
+ 	width: 270px;
+ 	height: 50px;
+ 	border: 1px solid #e1e1e1;
+ 	padding-bottom: 20px;
+ } 
+ #frmenter button{
+ 	background-image: url('anh/icon2.jpg');
+ 	width: 60px;
+ 	height: 50px;
+ 	border:none;
+ 	position: absolute;
+ 	top: 127px;
+ 	right: 9px;
+ }
+ #ketthuc {
+ 	background-color: #1a2642;
+ 	height: 100px;
+ }
+ #fontkt{
+ 	padding-top: 35px;
+ 	font-size: 16px;
+	line-height: 36px;
+	color: #989ba6;
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+ }
+ #menu3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #28609000;
+   padding-top: 30px;
+   padding-left: 600px;
+}
+  #menu3 li {
+	float: left;
+}
+ #menu3  a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.container #fontkt1{
+	float: right;
+	padding-top: 20px;
+	font-size: 14px;
+   letter-spacing: 0px;
+   line-height: 36px;
+   	color: #989ba6;
+   font-family: "Oswald";
+  	font-weight: 400;
+   text-align: right;
+}
+.container #fontkt1 ul li {
+	list-style-type: none;
+	overflow: hidden;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin: auto;
+	padding-right: 30px;
+}
+.container #fontkt1 ul{
+	padding-top: 15px;
+}
